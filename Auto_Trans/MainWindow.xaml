@@ -10,7 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="75"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="30"/>
+            <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
         <Image Source="D:\Project C#\Auto_Trans\Auto_Trans\Resources\bus.png" HorizontalAlignment="Left"></Image>
         <TextBlock Text="АвтоТранс" FontSize="30" HorizontalAlignment="Center"></TextBlock>
