@@ -1,0 +1,21 @@
+﻿<Window x:Class="Auto_Trans.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Auto_Trans"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="DeepSkyBlue">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Image Source="D:\Project C#\Auto_Trans\Auto_Trans\Resources\bus.png" HorizontalAlignment="Left"></Image>
+        <TextBlock Text="АвтоТранс" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+        <Grid Background="DodgerBlue" Panel.ZIndex="-2"></Grid>
+        <Frame NavigationUIVisibility="Hidden" ContentRendered="MainFrame_ContentRendered" Grid.Row="1" Name="MainFrame"></Frame>
+        <Button Content="Назад" Name="BtnBack"  HorizontalAlignment="Right" Background="AliceBlue"  Click="BtnBack_Click"></Button>
+    </Grid>
+</Window>
