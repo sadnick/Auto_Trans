@@ -66,7 +66,7 @@ namespace Auto_Trans
         {
             if (Visibility == Visibility.Visible)
             {
-                AutoBaseEntities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                AutoBaseEntities.GetContext().ChangeTracker.Entries().ToList();
                 DGridTicket.ItemsSource = AutoBaseEntities.GetContext().Tickets.ToList();
 
 
