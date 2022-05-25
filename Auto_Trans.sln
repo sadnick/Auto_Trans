@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto_Trans", "Auto_Trans\Auto_Trans.csproj", "{FE26B98D-DF2D-41B3-A72B-B416E02968F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{762C8AC2-615D-4B4B-B15A-A4161587CF38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FE26B98D-DF2D-41B3-A72B-B416E02968F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE26B98D-DF2D-41B3-A72B-B416E02968F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE26B98D-DF2D-41B3-A72B-B416E02968F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762C8AC2-615D-4B4B-B15A-A4161587CF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762C8AC2-615D-4B4B-B15A-A4161587CF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762C8AC2-615D-4B4B-B15A-A4161587CF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762C8AC2-615D-4B4B-B15A-A4161587CF38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
