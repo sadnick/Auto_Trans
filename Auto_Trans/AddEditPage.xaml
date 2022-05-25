@@ -34,6 +34,6 @@
         <ComboBox SelectedItem="{Binding Ticketroute}" Grid.Row="4" Grid.Column="1" x:Name="ComboSity" DisplayMemberPath="Name" ></ComboBox>
 
         <Button Content="Сохранить" Grid.ColumnSpan="2" Grid.Row="5" Name="BtnSave" Click="BtnSave_Click"></Button>
-        
+
     </Grid>
 </Page>
